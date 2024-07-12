@@ -1,0 +1,1 @@
+Projeto feito para terminar o desafio " Criando seu Primeiro Site Completo com HTML" da plataforma DIO. Baseado na série The White Lotus, o site hospeda informações sobre o resort/SPA The White Lotus, como serviços promovidos, contato, localização e horários.
