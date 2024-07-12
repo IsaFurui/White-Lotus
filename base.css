@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html, body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+body {
+    background-color: #f2f5ee;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-align: justify;
+}
+
+iframe{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+table{
+    -webkit-box-shadow: -21px 25px 49px -13px rgba(0,0,0,0.56);
+    -moz-box-shadow: -21px 25px 49px -13px rgba(0,0,0,0.56);
+    box-shadow: -21px 25px 49px -13px rgba(0,0,0,0.56);
+    border: 1px solid grey;
+}
+
+thead th{
+    background-color: #404031;
+    color: white;
+}
+
+tfoot td{
+    background-color: lightgray;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;
+}
+
+form{
+    margin: 0 auto;
+}
+
+.inputContact{
+    width: 50vh;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+  
+.containerVideo{
+    text-align: center;
+}
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex; /* Ativa o Flexbox */
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #d4dcc9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.aba{
+    background-color: #d4dcc9;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-bottom: 2px solid #4b6b47; /* Borda inferior para separar as abas */
+}
+
+.aba a{
+    font-family: "Inter", sans-serif;
+    font-size: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.aba:last-child {
+    border-bottom: none; /* Remove a borda inferior da última aba */
+}
+
+.aba:hover {
+    background-color: #9cb06e;
+}
+
+.header {
+    background-color: #d7e1d7;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.faixa{
+    margin-top: 15px;
+}
+
+.faixa img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.verticalLine{
+    width: 3px;
+    height: 70%;
+    background-color: #333;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Coloca os itens da display em colunas*/
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; /* Inclui padding e border no cálculo do width e height */
+}
+
+.content > *{ /* Estilos para os filhos da div content */
+    width: 100%; /* Ajusta a largura dos filhos para preencher o contêiner */
+    max-width: 1200px; /* Define um valor máximo para a largura, ajuste conforme necessário */
+    margin: 10px 0; /* Espaçamento entre os itens, ajuste conforme necessário */
+}
+
+.footer {
+    background-color:  #d7e1d7;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer > *{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.geral p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.local{
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between; /* Espaço entre os blocos */
+    align-items: center;
+    padding: 20px;
+}
+
+.container > *{
+    margin-right: 30px;
+}
+
+.texto2{
+    line-height: 25px;
+}
+
+.centralizador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.formContato{
+    border: solid 1px;
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+form label{
+    display: block;
+    margin: 20px 0 10px; /* Ordem cronologica: cima, direita, baixo e esquerda */
+}   
+
+.btnEnviar{
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.btnApagar{
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes button{
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+}
+
+.numeros{
+    border: solid 1px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+li{
+    padding: 5px;
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+}
+
+.child{
+    margin: 0 auto;
+}
+
+ul.telefones{
+    list-style: none; /*Tira os pontinhos padrão*/
+    padding-left: 10; /*Remove o padding da esquerda*/
+}
+
+ul.telefones li{
+    position: relative; /*Necessário para posicionar a imagem*/
+    padding-left: 30px; /*Espaçamento para a imagem*/
+    padding-bottom: 10px;
+}
+
+ul.telefones li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-size: contain; /*Ajusta a imagem para caber dentro do elemento*/
+    background-repeat: no-repeat;
+
+}
+
+.fixo::before{
+    background-image: url(images/phone.png);
+}
+
+.whatsapp::before{
+    background-image: url(images/whatsapp.png);
+}
